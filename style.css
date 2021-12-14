@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    font-family: 'montserrat', sans-serif;
+}
+
+.left {
+    flex: 1;
+    padding: 7%;
+    text-align: center;
+}
+
+
+/* .facebook {
+    color: rgba(6, 19, 141, 0.959);
+     text-align: center; 
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 5%;
+} */
+
+#bold {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    /* align-items: center; */
+    /* background-color: aqua; */
+}
+
+#marg {
+    /* margin-top: 40%; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #113CFC;
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-top: 35%;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#btn {
+    margin: auto;
+    width: 155px;
+    height: 45px;
+    padding-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid gray;
+}
+
+.right {
+    flex: 1;
+    padding: 7%;
+    text-align: center;
+}
+
+#disflex {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* padding: 10%; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* justify-content: center; */
+    align-items: center;
+    background-color: aliceblue;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 40px;
+    /* box-shadow: 5px 5px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 29px;
+}
+
+#input-tag {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+#log-in {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 17px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+#create {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 17px;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:1000px) {
+    .container {
+        flex-direction: column;
+    }
+}
